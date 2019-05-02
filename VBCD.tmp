@@ -1,0 +1,238 @@
+VERSION 5.00
+Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "comdlg32.ocx"
+Object = "{F9B85A83-4DBD-11CF-94E5-0000C0571740}#1.0#0"; "NSLIDE32.OCX"
+Object = "{F2012761-7994-481B-BD72-E543DE9E37B4}#1.0#0"; "LevelM.ocx"
+Object = "{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCT2.OCX"
+Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
+Begin VB.Form frmMain 
+   Caption         =   "Jingle Palette"
+   ClientHeight    =   8055
+   ClientLeft      =   210
+   ClientTop       =   600
+   ClientWidth     =   11880
+   FillColor       =   &H00808080&
+   Icon            =   "Main Window.frx":0000
+   KeyPreview      =   -1  'True
+   LinkTopic       =   "Form1"
+   NegotiateMenus  =   0   'False
+   PaletteMode     =   1  'UseZOrder
+   ScaleHeight     =   8055
+   ScaleWidth      =   11880
+   Begin TabDlg.SSTab TabCt 
+      Height          =   2535
+      Left            =   120
+      TabIndex        =   17
+      TabStop         =   0   'False
+      Top             =   5400
+      Width           =   5415
+      _ExtentX        =   9551
+      _ExtentY        =   4471
+      _Version        =   393216
+      TabOrientation  =   1
+      Tabs            =   4
+      TabsPerRow      =   4
+      TabHeight       =   794
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Arial"
+         Size            =   8.25
+         Charset         =   238
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      TabCaption(0)   =   "Palettes"
+      TabPicture(0)   =   "Main Window.frx":1042
+      Tab(0).ControlEnabled=   -1  'True
+      Tab(0).Control(0)=   "ckAssign"
+      Tab(0).Control(0).Enabled=   0   'False
+      Tab(0).Control(1)=   "btSave"
+      Tab(0).Control(1).Enabled=   0   'False
+      Tab(0).Control(2)=   "txtSave"
+      Tab(0).Control(2).Enabled=   0   'False
+      Tab(0).Control(3)=   "btNew"
+      Tab(0).Control(3).Enabled=   0   'False
+      Tab(0).Control(4)=   "lstPal"
+      Tab(0).Control(4).Enabled=   0   'False
+      Tab(0).ControlCount=   5
+      TabCaption(1)   =   "Time Announce"
+      TabPicture(1)   =   "Main Window.frx":105E
+      Tab(1).ControlEnabled=   0   'False
+      Tab(1).Control(0)=   "ckTmAnn"
+      Tab(1).Control(0).Enabled=   0   'False
+      Tab(1).Control(1)=   "b_tmAnJin"
+      Tab(1).Control(1).Enabled=   0   'False
+      Tab(1).Control(2)=   "TmAnMin"
+      Tab(1).Control(2).Enabled=   0   'False
+      Tab(1).Control(3)=   "TmAnDel"
+      Tab(1).Control(3).Enabled=   0   'False
+      Tab(1).Control(4)=   "TmAnSec"
+      Tab(1).Control(4).Enabled=   0   'False
+      Tab(1).Control(5)=   "UpDown3"
+      Tab(1).Control(6)=   "UpDown5"
+      Tab(1).Control(7)=   "UpDown4"
+      Tab(1).Control(8)=   "lblMinute"
+      Tab(1).Control(9)=   "lblSecond"
+      Tab(1).Control(10)=   "lblDelay"
+      Tab(1).Control(11)=   "ln1"
+      Tab(1).ControlCount=   12
+      TabCaption(2)   =   "Play Stream"
+      TabPicture(2)   =   "Main Window.frx":107A
+      Tab(2).ControlEnabled=   0   'False
+      Tab(2).Control(0)=   "cmbStream"
+      Tab(2).Control(0).Enabled=   0   'False
+      Tab(2).Control(1)=   "ckPlayStream"
+      Tab(2).Control(1).Enabled=   0   'False
+      Tab(2).Control(2)=   "ckMixByTa"
+      Tab(2).Control(2).Enabled=   0   'False
+      Tab(2).Control(3)=   "txtConDisp"
+      Tab(2).Control(3).Enabled=   0   'False
+      Tab(2).Control(4)=   "lblRemLoc"
+      Tab(2).ControlCount=   5
+      TabCaption(3)   =   "Settings"
+      TabPicture(3)   =   "Main Window.frx":1096
+      Tab(3).ControlEnabled=   0   'False
+      Tab(3).Control(0)=   "ckLoopI"
+      Tab(3).Control(0).Enabled=   0   'False
+      Tab(3).Control(1)=   "btAbout"
+      Tab(3).Control(1).Enabled=   0   'False
+      Tab(3).Control(2)=   "btSettings"
+      Tab(3).Control(2).Enabled=   0   'False
+      Tab(3).Control(3)=   "btHelp"
+      Tab(3).Control(3).Enabled=   0   'False
+      Tab(3).Control(4)=   "ckAssVol"
+      Tab(3).Control(5)=   "SlideVolCh"
+      Tab(3).Control(6)=   "lblVolexp"
+      Tab(3).Control(7)=   "lblVole"
+      Tab(3).Control(8)=   "lblVol"
+      Tab(3).ControlCount=   9
+      Begin VB.CheckBox ckLoopI 
+         Caption         =   "Assign/Clear &Loop Mode"
+         Height          =   975
+         Left            =   -74880
+         Style           =   1  'Graphical
+         TabIndex        =   56
+         TabStop         =   0   'False
+         Top             =   960
+         Width           =   1215
+      End
+      Begin VB.CommandButton btAbout 
+         Caption         =   "A&bout..."
+         Height          =   975
+         Left            =   -70920
+         MaskColor       =   &H00FF0000&
+         Style           =   1  'Graphical
+         TabIndex        =   51
+         TabStop         =   0   'False
+         Top             =   960
+         UseMaskColor    =   -1  'True
+         Width           =   1215
+      End
+      Begin VB.CommandButton btSettings 
+         Caption         =   "Se&ttings..."
+         Height          =   975
+         Left            =   -73560
+         MaskColor       =   &H00FF0000&
+         Style           =   1  'Graphical
+         TabIndex        =   50
+         TabStop         =   0   'False
+         Top             =   960
+         UseMaskColor    =   -1  'True
+         Width           =   1215
+      End
+      Begin VB.CommandButton btHelp 
+         Caption         =   "&Help..."
+         Height          =   975
+         Left            =   -72240
+         MaskColor       =   &H00FF00FF&
+         Style           =   1  'Graphical
+         TabIndex        =   49
+         TabStop         =   0   'False
+         Top             =   960
+         UseMaskColor    =   -1  'True
+         Width           =   1215
+      End
+      Begin VB.CheckBox ckAssVol 
+         Caption         =   "Assign new Volume level to Jingle"
+         Height          =   735
+         Left            =   -74880
+         Style           =   1  'Graphical
+         TabIndex        =   48
+         Top             =   120
+         Width           =   5175
+      End
+      Begin VB.ComboBox cmbStream 
+         Height          =   315
+         Left            =   -74880
+         TabIndex        =   46
+         TabStop         =   0   'False
+         Text            =   "http://"
+         ToolTipText     =   "Enter the location. Eg. http://yourserver.com/yourfile.mp3"
+         Top             =   360
+         Width           =   5175
+      End
+      Begin VB.CheckBox ckPlayStream 
+         Caption         =   "Play Remote Location"
+         Height          =   735
+         Left            =   -74880
+         Style           =   1  'Graphical
+         TabIndex        =   45
+         TabStop         =   0   'False
+         Top             =   840
+         Width           =   2055
+      End
+      Begin VB.CheckBox ckMixByTa 
+         Caption         =   "Auto Mix by Time Announce"
+         Height          =   735
+         Left            =   -71295
+         Style           =   1  'Graphical
+         TabIndex        =   44
+         TabStop         =   0   'False
+         Top             =   840
+         Width           =   1575
+      End
+      Begin VB.TextBox txtConDisp 
+         Alignment       =   2  'Center
+         BackColor       =   &H00000000&
+         ForeColor       =   &H00FFFFC0&
+         Height          =   300
+         Left            =   -74880
+         Locked          =   -1  'True
+         TabIndex        =   43
+         TabStop         =   0   'False
+         Text            =   "Not connected"
+         Top             =   1680
+         Width           =   5175
+      End
+      Begin VB.ListBox lstPal 
+         BeginProperty Font 
+            Name            =   "Arial"
+            Size            =   12
+            Charset         =   238
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   1680
+         ItemData        =   "Main Window.frx":10B2
+         Left            =   3000
+         List            =   "Main Window.frx":10B4
+         Sorted          =   -1  'True
+         TabIndex        =   38
+         Top             =   120
+         Width           =   2295
+      End
+      Begin VB.CheckBox ckTmAnn 
+         Caption         =   "Time A&nnounce"
+         Height          =   615
+         Left            =   -73200
+         Style           =   1  'Graphical
+         TabIndex        =   30
+         TabStop         =   0   'False
+         Top             =   120
+         Width           =   3510
+      End
+      Begin VB.CheckBox b_tmAnJin 
+         Caption         =   "Select jingle to be announ&ced..."
+         Enabled         =   0   'False

@@ -1,0 +1,190 @@
+An error has occurred.  Contact support with the following information:
+2004.05.04. 17:56:39
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+
+
+
+An error has occurred.  Contact support with the following information:
+2004.05.04. 17:57:01
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+
+
+
+An error has occurred.  Contact support with the following information:
+2004.05.04. 17:58:20
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+	Last known line number: 4
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2004.05.19. 19:53:21
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+	Last known line number: 4
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2004.05.19. 19:55:33
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+	Last known line number: 41
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2004.06.19. 15:19:19
+
+	Function: modMain.Main
+	Error Source: 
+		Jingle_Palette
+	Error Number: 429
+	Error Description: ActiveX component can't create object
+	Last known line number: 1
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2004.12.11. 21:31:15
+
+	Function: modMain.Main
+	Error Source: 
+		Jingle_Palette
+	Error Number: 13
+	Error Description: Type mismatch
+	Last known line number: 64
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2004.12.11. 21:48:55
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+	Last known line number: 75
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2004.12.11. 21:49:07
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+	Last known line number: 75
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2004.12.11. 21:49:10
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+	Last known line number: 75
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2004.12.11. 21:49:22
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+	Last known line number: 75
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2004.12.11. 21:49:24
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+	Last known line number: 75
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2004.12.11. 21:49:33
+
+	Function: frmMain.Form_Resize
+	Error Source: 
+		Jingle_Palette
+	Error Number: 380
+	Error Description: Invalid property value
+	Last known line number: 75
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+
+An error has occurred.  Contact support with the following information:
+2005.02.16. 21:13:49
+
+	Function: frmSett.ColSel_MouseDown
+	Error Source: 
+		CommonDialog
+	Error Number: 32755
+	Error Description: Cancel was selected.
+	Last known line number: 6
+
+THIS INFORMATION HAS BEEN COPIED TO THE CLIPBOARD.
+_________________________________________________________
+
+

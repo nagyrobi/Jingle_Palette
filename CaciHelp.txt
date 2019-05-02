@@ -1,0 +1,87 @@
+A programmal kapcsolatban: amit javasoltam nem jo, mert
+
+Egy eset van, ami nagyon furcsa, espedig:
+
+Elinditod 1,2,3 - ugyanilyen sorrendben el vannak mentve a tombbe
+
+1. player nem vegzett
+2. player vegzett
+3. player nem vegzett
+
+A kovetkezonel a tomb tartalma lesz:
+
+2,3,2
+
+Egyik sem vegzett - a legregibbet felulirja - a 2-es lesz, ami a legujabb is.
+
+Masik otlet lenne, ha csak a sorrendet cserelned a tombben, ugyanerre az elobbi 
+esetre igy nezne ki:
+
+1,2,3
+
+1,3,2
+
+Szoval (a szintaxis lehet hogy nem ez, de a lenyeg remelem ertheto lesz :) ): 
+
+; Ez a fuggveny hatrateszi az index szamot a vektor tomb vegere, fuggetlenul, 
+hogy hol volt, es a tobbit elore hozza
+
+Public Sub ujrarendez(index as integer)
+   for i=1 to 2 '(ha a harmadik, nem kell mozgatni)
+       if vektor(i)=index then 
+             vektor(i) = vektor(i+1)           
+             vektor(i+1)=index
+       end if
+   next i
+End sub
+
+Public sub Play
+
+For i=1 to 3
+   If nem foglalt(Player[i]) then 
+      play(i)
+      ujrarendez(i)
+      exit sub
+   end if
+Next i
+
+; ha ideer, akkor mind a harom foglalt, hasznalja az elsot a tombbol
+
+Play( vektor(1) )
+Ujrarendez( vektor(1) )
+
+End sub
+
+Remelem, hasznalhato amit bogoltam :)
+
+Udv. 
+Caci.
+
+Meg valamit elfelejtettem:
+
+
+A kodba kell egy olyan is, hogy ha mind a harom meg nem volt hasznalva - az 
+elejen, akkor irja be magat a kovetkezo pozicioba.
+
+Ehhez egy lehetseges megoldas: az elejen a vektort lezerozni, majd a rutinba 
+betenni meg egy ilyesmit:
+
+Public Sub ujrarendez(index as integer)
+   for i=1 to 2 '(ha a harmadik, nem kell mozgatni)
+       if vektor(i)=index then 
+             vektor(i) = vektor(i+1)           
+             vektor(i+1)=index
+       end if
+       if vektor(i) = 0 then vektor(i) = index
+   next I
+; az utolso pozicioba is be kell keruljon valami, amennyiben nincs meg ott 
+semmi
+   if vektor(3)= 0 then vektor(3) = index
+End sub
+
+
+
+Jo programozgatast,
+Caci.
+
+ 

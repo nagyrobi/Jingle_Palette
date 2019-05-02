@@ -1,0 +1,5 @@
+Sziasztok!
+Itt az uj Jingle Palette v4.1.5. A http://www.geocities.com/aplinkrobi/ -rol letoltott es felinstallalt-ra masoljatok felulirva.
+Kulon-kulon minden jingle-ra lehet allitani  a hangerot es a Loop Status-t.
+A VU-meter mutatja a hengero valtozasokat is, kombinalva az individualis hanegrot a Settings-ben levo fo kimenet erejevel. Ez
+A help CHM formatum, de nincs meg update-olva a tartalma az uj opciokkal.

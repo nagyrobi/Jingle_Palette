@@ -1,0 +1,43 @@
+Well, now i want to know what's the relationship between the buffer filled by the Bass_ChannelGetData function and the correspondent values in decibels (dB).
+
+Explanation: I'm using the flag BASS_DATAFFT1024. This will return 512 floating point values ranging from 0 to 1. 
+
+Finally, i want to know how to get a representation in dB of the buffered values.
+
+I will put these dB values on a vertical scale on my FFT (bars) graph representation.
+
+Thanks for help.
+
+
+ 
+  Logged  
+
+--------------------------------------------------------------------------------
+Playlist Maker!'s Creator
+TCFUnRAR Delphi Component's Creator
+TCFCoolEdit Delphi Component's Creator
+
+
+http://www.wildstarcorp.kit.net
+
+
+"Why VB if Delphi is better?"  
+ 
+ 
+Ian @ un4seen
+Administrator
+Posts: 2250
+
+
+  Re:Bass_ChannelGetData: Returned values vs. Decibels
+« Reply #1 on: 12 Nov '03 - 20:52 »    
+
+--------------------------------------------------------------------------------
+Do this...
+
+dB = 20 * log10(fftvalue) 
+ 
+
+note: when fftvalue=0, the result is -infinity  
+ 
+ 

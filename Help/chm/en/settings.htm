@@ -1,0 +1,131 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+<meta http-equiv="page-enter" content="blendtrans(duration=0.1)">
+<meta http-equiv="page-exit" content="blendtrans(duration=0.1)">
+<title>Settings</title>
+<base target="_self">
+<style fprolloverstyle>A:hover {color: #FF0000; font-weight: bold}
+</style>
+</head>
+
+<body style="font-family: Verdana" bgcolor="#CCFFCC">
+
+<p>Settings allow you to customize Jingle Palette the way you like.</p>
+
+<p align="center"><img border="0" src="Img/TabSet.png" width="361" height="169"></p>
+
+<p><b><font size="4"><a name="Vol"></a>Setting the Volume</font></b></p>
+
+<p>You can set the volume level globally, for the general output of <b>Jingle 
+Palette</b>, and individually, for each jingle. This individual setting is saved 
+in the palette.</p>
+
+<p><b>To set the individual</b> volume for each jingle, click <i>Assign new 
+Volume level to Jingle</i> button. All the buttons on the palette will turn 
+blue, so you can choose a jingle to set its volume.</p>
+
+<p align="center"><img border="0" src="Img/SetVol.png" width="600" height="426"></p>
+
+<p>After clicking the desired jingle button, on the settings panel the blue 
+volume fader will appear, allowing you to precisely set the volume by dragging 
+it. Right-clicking on a jingle button and selecting <i>Assign Volume Level</i> 
+will bring up the same thing:</p>
+
+<p align="center">
+<img border="0" src="Img/TabSetVol.png" width="362" height="169"></p>
+
+<p>After setting the desired volume, click on <i>Save Volume</i> to save it in 
+the palette and return to the initial state.</p>
+
+<p><u><b>Note:</b></u> You can start playing the jingle and after that press the<i> 
+Assign new Volume level to Jingle</i> button to set the volume while listening.</p>
+
+<p><b>To set the main output volume</b> level from <b>Jingle Palette</b>, click
+<i>Settings...</i> and in the configuration window, on the Audio tab, drag the 
+red fader to select the desired volume. </p>
+
+<p><u><b>Note:</b></u> You can start playing a jingle and after that go to 
+Settings to set the main output volume while listening. To reset to 0 dB, you 
+can click the number above the fader.</p>
+
+<p><b><font size="4"><a name="Loop"></a>Setting Loop mode individually</font></b></p>
+
+<p>Each jingle can be played in Loop mode, and this preference is also saved in 
+the palette. To do that, click the <i>Assign/Clear Loop Mode</i> button. All the 
+palette will turn orange, allowing you to select a jingle to be played in Loop 
+mode:</p>
+
+<p align="center">
+<img border="0" src="Img/SetLoop.png" width="600" height="426"></p>
+
+<p>Clicking a jingle will enable its Loop playback mode. To remind you about 
+this state, an orange LED is lit up on the button. If you play a jingle while 
+this is on, that jingle will be looped (e.g. repeated) until you stop it in some 
+way, either with STOP ALL, or by clicking it again without the Autorepeat mode 
+on.</p>
+
+<p style="margin-top: 0; margin-bottom: 0"><u><b>Note:</b></u> For best results, it is recommended to store jingles that 
+you wish to loop in PCM WAV, Mp1 or Mp2 format only. We do not recommend Mp3 for 
+looping.</p>
+
+<p style="margin-top: 0; margin-bottom: 0">Right-clicking on a jingle button and 
+selecting <i>Set(Clear) Loop Mode</i> will to the same.</p>
+
+<p><b><font size="4"><a name="Adv"></a>Advanced Settings</font></b></p>
+
+<p>Clicking the<i> Settings...</i> button will bring you up the 
+Configuration Settings window, which will allow you to choose different options 
+for <b>Jingle Palette</b>:</p>
+<p align="center">
+<img border="0" src="Img/SettingsDisplay.png" width="414" height="265"></p>
+<p>Here you can choose the Time and Date display format, the number of seconds 
+after which the warning rectangle will appear on the
+<a href="display.htm">display</a>, the color of it.</p>
+<p>The Auto Mix time can be set in milliseconds. The default is 1500 (1.5 
+seconds) but you can specify any value between 100 and 3000.</p>
+<p><u><b>Note:</b></u> The values of the Remaining warning time, Auto Mix time, 
+etc. can be changed by clicking the little Up/Down arrows, or from keyboard by 
+pressing UP, DOWN keys in the corresponding number box. Pressing LEFT or RIGHT 
+will change the values more rapidly.</p>
+<p align="center">
+<img border="0" src="Img/SettingsAudio.png" width="414" height="265"></p>
+<p>The <a href="timeann.htm">Time Announce</a> signal can be 
+chosen here in a similar way that jingle assignment is done.</p>
+<p>The output device can also be chosen from the settings window. If you change 
+the output device, all output will stop, the audio module will reset and reload 
+the palette on the new device, as the message box will warn you. So if you have 
+a jingle on air, you can wait until it finishes if you want and then press OK:</p>
+<p align="center">
+<img border="0" src="Img/NewDevice.png" width="375" height="126"></p>
+<p style="margin-top: 0; margin-bottom: 0">If you select an unsupported device, you will be warned accordingly.</p>
+<p style="margin-top: 0; margin-bottom: 0">To set the main output volume from 
+this window, see above.</p>
+<p align="center">
+<img border="0" src="Img/SettingsOthers.png" width="414" height="265"></p>
+
+<p>The Process Priority Thread can be chosen here from <i>Idle</i> to <i>Time 
+Critical</i>. This is useful in case you want to fine tune the software 
+compatibility between programs running together on the same computer system. 
+Multitasking environments differ from one operating system to another. In any 
+case, the <i>Time Critical</i> priority is not recommended, it can cause system 
+lockup and instability. A message will warn you in this case to be cautious. <i>
+Save all errors to &quot;Error.log&quot; file </i>checked saves not only the program 
+errors, but also the missing jingles, and other user-generated errors to a 
+logfile to check later. <i>Always On Top of all the other windows </i>checked 
+makes Jingle Palette to be the topmost window on your desktop. That's helpful 
+when using with other broadcasting tools.</p>
+
+<p>Changing the language of the interface can be done easily, by selecting the 
+desired language from the dropdown box. To have <b>Jingle Palette</b> translated 
+in your language, see <i><a href="translate.htm">Translating Jingle Palette in 
+other languages</a></i> section. It's easy and anyone can do it.</p>
+<p>You can choose to save the program errors to a log file. This is useful if a 
+certain error occurs repeatedly, because you can send it to the author for 
+debugging and problem fixing.</p>
+
+</body>
+
+</html>

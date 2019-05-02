@@ -1,0 +1,41 @@
+Line 372: Class SliderLib.Slider of control SlideVolCh was not a loaded control class.
+Line 486: Class levelm.LevelMeter of control VuL was not a loaded control class.
+Line 501: Class levelm.LevelMeter of control VuR was not a loaded control class.
+Line 380: The property name _Version in SlideVolCh is invalid.
+Line 381: The property name _ExtentX in SlideVolCh is invalid.
+Line 382: The property name _ExtentY in SlideVolCh is invalid.
+Line 383: The property name _StockProps in SlideVolCh is invalid.
+Line 384: The property name BorderColor in SlideVolCh is invalid.
+Line 385: The property name Min in SlideVolCh is invalid.
+Line 386: The property name Max in SlideVolCh is invalid.
+Line 387: The property name Pos in SlideVolCh is invalid.
+Line 388: The property name OuterBevel in SlideVolCh is invalid.
+Line 389: The property name InnerBevel in SlideVolCh is invalid.
+Line 390: The property name OuterBevelWidth in SlideVolCh is invalid.
+Line 391: The property name InnerBevelWidth in SlideVolCh is invalid.
+Line 392: The property name BorderWidth in SlideVolCh is invalid.
+Line 393: The property name ShadowColor in SlideVolCh is invalid.
+Line 394: The property name HiliteColor in SlideVolCh is invalid.
+Line 395: The property name Orientation in SlideVolCh is invalid.
+Line 396: The property name TickMarks in SlideVolCh is invalid.
+Line 397: The property name TickColor in SlideVolCh is invalid.
+Line 398: The property name TickStyle in SlideVolCh is invalid.
+Line 399: The property name CenterBar in SlideVolCh is invalid.
+Line 491: The property name _ExtentX in VuL is invalid.
+Line 492: The property name _ExtentY in VuL is invalid.
+Line 493: The property name Level in VuL is invalid.
+Line 494: The property name MidLevel in VuL is invalid.
+Line 495: The property name Horizontal in VuL is invalid.
+Line 496: The property name Reverse in VuL is invalid.
+Line 497: The property name PeakDelay in VuL is invalid.
+Line 498: The property name Gradient in VuL is invalid.
+Line 499: The property name Solid in VuL is invalid.
+Line 506: The property name _ExtentX in VuR is invalid.
+Line 507: The property name _ExtentY in VuR is invalid.
+Line 508: The property name Level in VuR is invalid.
+Line 509: The property name MidLevel in VuR is invalid.
+Line 510: The property name Horizontal in VuR is invalid.
+Line 511: The property name Reverse in VuR is invalid.
+Line 512: The property name PeakDelay in VuR is invalid.
+Line 513: The property name Gradient in VuR is invalid.
+Line 514: The property name Solid in VuR is invalid.

@@ -1,0 +1,89 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+<meta http-equiv="page-enter" content="blendtrans(duration=0.1)">
+<meta http-equiv="page-exit" content="blendtrans(duration=0.1)">
+<title>Translate</title>
+<base target="_self">
+<style fprolloverstyle>A:hover {color: #FF0000; font-weight: bold}
+</style>
+</head>
+
+<body style="font-family: Verdana" bgcolor="#CCFFCC">
+
+<p><b><font size="4">Translating Jingle Palette in your own language</font></b></p>
+<p>If you cannot find your language in the language dropdown box from the 
+Configuration Settings window, you can make your own translation.</p>
+<p>Localized strings can be found in the &quot;language.ini&quot; file, located in the 
+installation folder of Jingle Palette (usually C:\Program Files\Jingle Palette). 
+Double-clicking this file will open it in Notepad for editing.</p>
+<p>The file follows the structure of a standard ini file, in the following way:</p>
+<font face="Courier">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1" bgcolor="#FFFFFF">
+  <tr>
+    <td width="100%">
+    <p style="margin-top: 0; margin-bottom: 0"><font face="Courier">
+    <font color="#000080">[Section]</font></p>
+    <p style="margin-top: 0; margin-bottom: 0"><font color="#000080">
+    Enrty1=Value</font></p>
+    <p style="margin-top: 0; margin-bottom: 0"><font color="#000080">
+    Entry2=Value</font></font></td>
+  </tr>
+</table>
+</font>
+<p>In our case, the section name is the name of the language and the entries are 
+the localized strings for the defined controls, like this:</p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2" bgcolor="#FFFFFF">
+  <tr>
+    <td width="100%">
+    <p style="margin-top: 0; margin-bottom: 0"><font face="Courier">
+    <font color="#000080">[English]</font></p>
+    <p style="margin-top: 0; margin-bottom: 0"><font color="#000080">mb_tmAnJin=Select 
+    jingle to be announced...<br>
+    mbtAbout=About...<br>
+    mbtDn=Next Palette<br>
+    mbtExit=Exit</font></font></td>
+  </tr>
+</table>
+<p>To add your own language translation to Jingle Palette, do the following:</p>
+<ul>
+  <li>create a backup copy of &quot;language.ini&quot;. (Right-click and drag in the same 
+  folder and release, select &quot;Copy Here&quot; and a file called &quot;Copy of language.ini&quot; 
+  will be created. This will be useful if you mess up the original &quot;language.ini&quot; 
+  by mistake, to restore it.)</li>
+  <li>exit <b>Jingle Palette</b></li>
+  <li>open &quot;language.ini&quot; for editing in notepad</li>
+  <li>select with the cursor the entire &quot;English&quot; section, including all the 
+  entries until the next language</li>
+  <li>copy it and paste it at the end of the file</li>
+  <li>change the name of the section to your language</li>
+  <li>begin translating the strings that follow the equal &quot;=&quot; sign. <b>Do NOT 
+  modify anything before the &quot;=&quot;, or else your translation will not work!</b>
+  </li>
+  <li>save &quot;language.ini&quot;</li>
+  <li>run <b>Jingle Palette</b>, go to settings and select your language.</li>
+</ul>
+<p>At the end you should have something like this:</p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber3" bgcolor="#FFFFFF">
+  <tr>
+    <td width="100%">
+    <p style="margin-top: 0; margin-bottom: 0"><font face="Courier">
+    <font color="#000080">[Your Language]</font></p>
+    <p style="margin-top: 0; margin-bottom: 0"><font color="#000080">mb_tmAnJin=you 
+    translated it...<br>
+    mbtAbout=you translated it...<br>
+    mbtDn=you translated it<br>
+    mbtExit=you translated it</font></font></td>
+  </tr>
+</table>
+<p>After you fully finalized your translation, please
+<a href="mailto:horvark@yahoo.com?subject=Jingle Palette - Translation">send</a> a copy
+<a href="mailto:horvark@yahoo.com?subject=Jingle Palette - Translation">to 
+the author</a> so he can share it with the other users in the next release. 
+Thanks!</p>
+
+</body>
+
+</html>
